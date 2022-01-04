@@ -30,6 +30,13 @@
         app:layout_constraintTop_toBottomOf="@+id/textView">
 
         <EditText
+            android:id="@+id/editTextID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="პირადი ნომერი" />
+
+        <EditText
             android:id="@+id/editTextStudentsName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -45,14 +52,6 @@
             android:ems="10"
             android:hint="ელ. ფოსტა"
             android:inputType="textEmailAddress"
-            />
-
-        <EditText
-            android:id="@+id/editTextPhone"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="პირადი ნომერი"
             />
 
         <EditText
