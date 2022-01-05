@@ -7,12 +7,12 @@
 
     <fragment
         android:id="@+id/infoFragment"
-        tools:layout="@layout/fragment_students_list"
+        tools:layout="@layout/fragment_info"
         android:name="com.example.btuadmin.fragment.InfoFragment"
         android:label="InfoFragment" />
     <fragment
         android:id="@+id/studentsListFragment"
-        tools:layout="@layout/fragment_info"
+        tools:layout="@layout/fragment_students_list"
         android:name="com.example.btuadmin.fragment.StudentsListFragment"
         android:label="StudentsListFragment" />
 </navigation>
